@@ -1,0 +1,24 @@
+PANDUAN APLIKASI (CHILL)
+
+1. CARA MENJALANKAN APLIKASI
+   - Pastikan Node.js sudah terinstal di komputer.
+   - Buka terminal/command prompt dan arahkan ke folder proyek ini.
+   - Jalankan perintah: `npm install` (untuk menginstal semua dependensi).
+   - Jalankan perintah: `npm run dev` (untuk menyalakan development server).
+   - Buka browser dan akses alamat yang tampil di terminal (biasanya http://localhost:5173 atau port sekitarnya).
+
+2. ALUR APLIKASI (FLOW)
+   - Landing Page / Beranda: 
+     Menampilkan hero section utama dengan konten "Duty After School", kumpulan film/series yang sedang trending, top rating, dll.
+   - Halaman Series:
+     Menampilkan daftar khusus TV Series dengan poster utama (hero) "Happiness".
+   - Halaman Film:
+     Menampilkan daftar khusus Film layar lebar dengan poster utama "Avatar 3".
+   - Fitur Filter Genre:
+     Terdapat dropdown "Genre" di Hero Section. Jika dipilih (contoh: Action), semua deretan/baris film di halaman tersebut akan tersaring secara real-time.
+   - Halaman Daftar Saya:
+     Menampilkan daftar film/series yang telah ditandai oleh pengguna. Fitur ini membaca dan menambah data secara interaktif.
+   - Halaman Pencarian (Search):
+     Pengguna dapat mengetikkan judul film atau genre di form pencarian navbar. Di mobile, menekan icon search akan menampilkan full-width bar. Pengguna akan dialihkan ke halaman Search untuk melihat hasil.
+   - Modal Detail & Rekomendasi:
+     Di setiap daftar film, ada tombol detail yang menampilkan popup informasi lengkap (deskripsi, daftar pemain, dsb.). Di bagian bawah, terdapat tab "Rekomendasi Serupa" yang isinya disesuaikan otomatis dari API berdasarkan genre film tersebut.

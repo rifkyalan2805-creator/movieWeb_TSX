@@ -1,0 +1,1172 @@
+[
+  {
+    "id": "1",
+    "title": "Dune: Part Two",
+    "image": "https://image.tmdb.org/t/p/w500/1pdfLvkbY9ohJlCjQH2CZjjYVvJ.jpg",
+    "genre": "Sci-Fi",
+    "type": "film",
+    "rating": "4.1",
+    "badges": [
+      "Premium"
+    ],
+    "isTrending": true,
+    "isNewRelease": false,
+    "durasi": 166
+  },
+  {
+    "id": "2",
+    "title": "Indiana Jones and the Dial of Destiny",
+    "image": "https://image.tmdb.org/t/p/w500/Af4bXE63pVsb2FtbW8uYIyPBadD.jpg",
+    "genre": "Adventure",
+    "type": "film",
+    "rating": "3.6",
+    "badges": [
+      "Top 10"
+    ],
+    "isTrending": true,
+    "isNewRelease": false,
+    "durasi": 154
+  },
+  {
+    "id": "3",
+    "title": "Avatar: The Way of Water",
+    "image": "https://image.tmdb.org/t/p/w500/t6HIqrRAclMCA60NsSmeqe9RmNV.jpg",
+    "genre": "Adventure",
+    "type": "film",
+    "rating": "3.4",
+    "badges": [],
+    "isTrending": true,
+    "isNewRelease": false,
+    "durasi": 192
+  },
+  {
+    "id": "4",
+    "title": "The Mandalorian",
+    "image": "https://picsum.photos/seed/TheMandalorian/800/1200",
+    "genre": "Adventure",
+    "type": "series",
+    "rating": "4.4",
+    "badges": [
+      "Premium"
+    ],
+    "isTrending": false,
+    "isNewRelease": true,
+    "episode": 24
+  },
+  {
+    "id": "5",
+    "title": "Ahsoka",
+    "image": "https://image.tmdb.org/t/p/w500/jtAI6OJIWLWiRItNSZoWjrsUtmi.jpg",
+    "genre": "Adventure",
+    "type": "series",
+    "rating": "4.6",
+    "badges": [],
+    "isTrending": false,
+    "isNewRelease": true,
+    "episode": 8
+  },
+  {
+    "id": "6",
+    "title": "The Super Mario Bros. Movie",
+    "image": "https://image.tmdb.org/t/p/w500/qNBAXBIQlnOThrVvA6mA2B5ggV6.jpg",
+    "genre": "Adventure",
+    "type": "film",
+    "rating": "4.3",
+    "badges": [],
+    "isTrending": false,
+    "isNewRelease": false,
+    "durasi": 92
+  },
+  {
+    "id": "7",
+    "title": "Guardians of the Galaxy Vol. 3",
+    "image": "https://image.tmdb.org/t/p/w500/r2J02Z2OpNTctfOSN1Ydgii51I3.jpg",
+    "genre": "Adventure",
+    "type": "film",
+    "rating": "4.0",
+    "badges": [
+      "Premium"
+    ],
+    "isTrending": false,
+    "isNewRelease": false,
+    "durasi": 150
+  },
+  {
+    "id": "8",
+    "title": "Jumanji: The Next Level",
+    "image": "https://picsum.photos/seed/Jumanji%3ATheNextLevel/800/1200",
+    "genre": "Adventure",
+    "type": "film",
+    "rating": "3.4",
+    "badges": [],
+    "isTrending": false,
+    "isNewRelease": false,
+    "durasi": 123
+  },
+  {
+    "id": "9",
+    "title": "Tomb Raider",
+    "image": "https://image.tmdb.org/t/p/w500/ePyN2nX9t8SOl70eRW47Q29zUFO.jpg",
+    "genre": "Adventure",
+    "type": "film",
+    "rating": "3.8",
+    "badges": [],
+    "isTrending": false,
+    "isNewRelease": false,
+    "durasi": 118
+  },
+  {
+    "id": "10",
+    "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+    "image": "https://image.tmdb.org/t/p/w500/z8onk7LV9Mmw6zKz4hT6pzzvmvl.jpg",
+    "genre": "Adventure",
+    "type": "film",
+    "rating": "4.2",
+    "badges": [
+      "Premium"
+    ],
+    "isTrending": false,
+    "isNewRelease": false,
+    "durasi": 143
+  },
+  {
+    "id": "11",
+    "title": "John Wick: Chapter 4",
+    "image": "https://image.tmdb.org/t/p/w500/vZloFAK7NmvMGKE7VkF5UHaz0I.jpg",
+    "genre": "Action",
+    "type": "film",
+    "rating": "4.9",
+    "badges": [
+      "Premium"
+    ],
+    "isTrending": true,
+    "isNewRelease": false,
+    "durasi": 169
+  },
+  {
+    "id": "12",
+    "title": "Mission: Impossible - Dead Reckoning Part One",
+    "image": "https://image.tmdb.org/t/p/w500/NNxYkU70HPurnNCSiCjYAmacwm.jpg",
+    "genre": "Action",
+    "type": "film",
+    "rating": "3.8",
+    "badges": [
+      "Top 10"
+    ],
+    "isTrending": true,
+    "isNewRelease": false,
+    "durasi": 163
+  },
+  {
+    "id": "13",
+    "title": "Fast X",
+    "image": "https://image.tmdb.org/t/p/w500/fiVW06jE7z9YnO4trhaMEdclSiC.jpg",
+    "genre": "Action",
+    "type": "film",
+    "rating": "4.0",
+    "badges": [],
+    "isTrending": true,
+    "isNewRelease": false,
+    "durasi": 141
+  },
+  {
+    "id": "14",
+    "title": "Reacher",
+    "image": "https://picsum.photos/seed/Reacher/800/1200",
+    "genre": "Action",
+    "type": "series",
+    "rating": "3.7",
+    "badges": [
+      "Premium"
+    ],
+    "isTrending": false,
+    "isNewRelease": true,
+    "episode": 16
+  },
+  {
+    "id": "15",
+    "title": "The Batman",
+    "image": "https://image.tmdb.org/t/p/w500/74xTEgt7R36Fpooo50r9T25onhq.jpg",
+    "genre": "Action",
+    "type": "film",
+    "rating": "3.7",
+    "badges": [],
+    "isTrending": false,
+    "isNewRelease": true,
+    "durasi": 176
+  },
+  {
+    "id": "16",
+    "title": "Jack Ryan",
+    "image": "https://picsum.photos/seed/JackRyan/800/1200",
+    "genre": "Action",
+    "type": "series",
+    "rating": "4.0",
+    "badges": [],
+    "isTrending": false,
+    "isNewRelease": false,
+    "episode": 30
+  },
+  {
+    "id": "17",
+    "title": "Die Hard",
+    "image": "https://image.tmdb.org/t/p/w500/yFihWxQcmqcaBR31QM6Y8gT6aYV.jpg",
+    "genre": "Action",
+    "type": "film",
+    "rating": "3.8",
+    "badges": [
+      "Premium"
+    ],
+    "isTrending": false,
+    "isNewRelease": false,
+    "durasi": 132
+  },
+  {
+    "id": "18",
+    "title": "Gladiator",
+    "image": "https://image.tmdb.org/t/p/w500/ty8TGRuvJLPUmAR1H1nRIsgwvim.jpg",
+    "genre": "Action",
+    "type": "film",
+    "rating": "4.7",
+    "badges": [],
+    "isTrending": false,
+    "isNewRelease": false,
+    "durasi": 155
+  },
+  {
+    "id": "19",
+    "title": "Mad Max: Fury Road",
+    "image": "https://picsum.photos/seed/MadMax%3AFuryRoad/800/1200",
+    "genre": "Action",
+    "type": "film",
+    "rating": "3.1",
+    "badges": [],
+    "isTrending": false,
+    "isNewRelease": false,
+    "durasi": 120
+  },
+  {
+    "id": "20",
+    "title": "The Equalizer 3",
+    "image": "https://picsum.photos/seed/TheEqualizer3/800/1200",
+    "genre": "Action",
+    "type": "film",
+    "rating": "3.2",
+    "badges": [
+      "Premium"
+    ],
+    "isTrending": false,
+    "isNewRelease": false,
+    "durasi": 109
+  },
+  {
+    "id": "21",
+    "title": "Abbott Elementary",
+    "image": "https://picsum.photos/seed/AbbottElementary/800/1200",
+    "genre": "Comedy",
+    "type": "series",
+    "rating": "4.2",
+    "badges": [
+      "Premium"
+    ],
+    "isTrending": true,
+    "isNewRelease": false,
+    "episode": 40
+  },
+  {
+    "id": "22",
+    "title": "Ted Lasso",
+    "image": "https://image.tmdb.org/t/p/w500/5fhZdwP1DVJ0FyVH6vrFdHwpXIn.jpg",
+    "genre": "Comedy",
+    "type": "series",
+    "rating": "4.3",
+    "badges": [
+      "Top 10"
+    ],
+    "isTrending": true,
+    "isNewRelease": false,
+    "episode": 34
+  },
+  {
+    "id": "23",
+    "title": "What We Do in the Shadows",
+    "image": "https://picsum.photos/seed/WhatWeDointheShadows/800/1200",
+    "genre": "Comedy",
+    "type": "series",
+    "rating": "3.1",
+    "badges": [],
+    "isTrending": true,
+    "isNewRelease": false,
+    "episode": 50
+  },
+  {
+    "id": "24",
+    "title": "Only Murders in the Building",
+    "image": "https://picsum.photos/seed/OnlyMurdersintheBuilding/800/1200",
+    "genre": "Comedy",
+    "type": "series",
+    "rating": "3.2",
+    "badges": [
+      "Premium"
+    ],
+    "isTrending": false,
+    "isNewRelease": true,
+    "episode": 30
+  },
+  {
+    "id": "25",
+    "title": "Free Guy",
+    "image": "https://image.tmdb.org/t/p/w500/xmbU4JTUm8rsdtn7Y3Fcm30GpeT.jpg",
+    "genre": "Comedy",
+    "type": "film",
+    "rating": "4.6",
+    "badges": [],
+    "isTrending": false,
+    "isNewRelease": true,
+    "durasi": 115
+  },
+  {
+    "id": "26",
+    "title": "The Hangover",
+    "image": "https://picsum.photos/seed/TheHangover/800/1200",
+    "genre": "Comedy",
+    "type": "film",
+    "rating": "4.6",
+    "badges": [],
+    "isTrending": false,
+    "isNewRelease": false,
+    "durasi": 100
+  },
+  {
+    "id": "27",
+    "title": "Superbad",
+    "image": "https://image.tmdb.org/t/p/w500/ek8e8txUyUwd2BNqj6lFEerJfbq.jpg",
+    "genre": "Comedy",
+    "type": "film",
+    "rating": "4.5",
+    "badges": [
+      "Premium"
+    ],
+    "isTrending": false,
+    "isNewRelease": false,
+    "durasi": 113
+  },
+  {
+    "id": "28",
+    "title": "Deadpool",
+    "image": "https://picsum.photos/seed/Deadpool/800/1200",
+    "genre": "Comedy",
+    "type": "film",
+    "rating": "3.4",
+    "badges": [],
+    "isTrending": false,
+    "isNewRelease": false,
+    "durasi": 108
+  },
+  {
+    "id": "29",
+    "title": "21 Jump Street",
+    "image": "https://picsum.photos/seed/21JumpStreet/800/1200",
+    "genre": "Comedy",
+    "type": "film",
+    "rating": "3.7",
+    "badges": [],
+    "isTrending": false,
+    "isNewRelease": false,
+    "durasi": 109
+  },
+  {
+    "id": "30",
+    "title": "Game Night",
+    "image": "https://image.tmdb.org/t/p/w500/4HWAQu28e2yaWrtupFPGFkdNU7V.jpg",
+    "genre": "Comedy",
+    "type": "film",
+    "rating": "4.9",
+    "badges": [
+      "Premium"
+    ],
+    "isTrending": false,
+    "isNewRelease": false,
+    "durasi": 100
+  },
+  {
+    "id": "31",
+    "title": "Oppenheimer",
+    "image": "https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
+    "genre": "Documentary",
+    "type": "film",
+    "rating": "5.0",
+    "badges": [
+      "Premium"
+    ],
+    "isTrending": true,
+    "isNewRelease": false,
+    "durasi": 180
+  },
+  {
+    "id": "32",
+    "title": "Chef's Table",
+    "image": "https://picsum.photos/seed/Chef'sTable/800/1200",
+    "genre": "Documentary",
+    "type": "series",
+    "rating": "5.0",
+    "badges": [
+      "Top 10"
+    ],
+    "isTrending": true,
+    "isNewRelease": false,
+    "episode": 24
+  },
+  {
+    "id": "33",
+    "title": "Wild Wild Country",
+    "image": "https://picsum.photos/seed/WildWildCountry/800/1200",
+    "genre": "Documentary",
+    "type": "series",
+    "rating": "3.1",
+    "badges": [],
+    "isTrending": true,
+    "isNewRelease": false,
+    "episode": 6
+  },
+  {
+    "id": "34",
+    "title": "The Vow",
+    "image": "https://picsum.photos/seed/TheVow/800/1200",
+    "genre": "Documentary",
+    "type": "series",
+    "rating": "4.7",
+    "badges": [
+      "Premium"
+    ],
+    "isTrending": false,
+    "isNewRelease": true,
+    "episode": 10
+  },
+  {
+    "id": "35",
+    "title": "Night Stalker: The Hunt for a Serial Killer",
+    "image": "https://picsum.photos/seed/NightStalker%3ATheHuntforaSerialKiller/800/1200",
+    "genre": "Documentary",
+    "type": "series",
+    "rating": "4.0",
+    "badges": [],
+    "isTrending": false,
+    "isNewRelease": true,
+    "episode": 4
+  },
+  {
+    "id": "36",
+    "title": "The Last Dance",
+    "image": "https://picsum.photos/seed/TheLastDance/800/1200",
+    "genre": "Documentary",
+    "type": "series",
+    "rating": "3.4",
+    "badges": [],
+    "isTrending": false,
+    "isNewRelease": false,
+    "episode": 10
+  },
+  {
+    "id": "37",
+    "title": "Making a Murderer",
+    "image": "https://picsum.photos/seed/MakingaMurderer/800/1200",
+    "genre": "Documentary",
+    "type": "series",
+    "rating": "4.4",
+    "badges": [
+      "Premium"
+    ],
+    "isTrending": false,
+    "isNewRelease": false,
+    "episode": 10
+  },
+  {
+    "id": "38",
+    "title": "Planet Earth III",
+    "image": "https://picsum.photos/seed/PlanetEarthIII/800/1200",
+    "genre": "Documentary",
+    "type": "series",
+    "rating": "3.1",
+    "badges": [],
+    "isTrending": false,
+    "isNewRelease": false,
+    "episode": 8
+  },
+  {
+    "id": "39",
+    "title": "13th",
+    "image": "https://picsum.photos/seed/13th/800/1200",
+    "genre": "Documentary",
+    "type": "film",
+    "rating": "4.4",
+    "badges": [],
+    "isTrending": false,
+    "isNewRelease": false,
+    "durasi": 100
+  },
+  {
+    "id": "40",
+    "title": "Fyre: The Greatest Party That Never Happened",
+    "image": "https://picsum.photos/seed/Fyre%3ATheGreatestPartyThatNeverHappened/800/1200",
+    "genre": "Documentary",
+    "type": "film",
+    "rating": "4.4",
+    "badges": [
+      "Premium"
+    ],
+    "isTrending": false,
+    "isNewRelease": false,
+    "durasi": 96
+  },
+  {
+    "id": "41",
+    "title": "The Last of Us",
+    "image": "https://image.tmdb.org/t/p/w500/uKvVjHNqB5VmOrdxqAt2F7J78ED.jpg",
+    "genre": "Drama",
+    "type": "series",
+    "rating": "4.1",
+    "badges": [
+      "Premium"
+    ],
+    "isTrending": true,
+    "isNewRelease": false,
+    "episode": 17
+  },
+  {
+    "id": "42",
+    "title": "Succession",
+    "image": "https://picsum.photos/seed/Succession/800/1200",
+    "genre": "Drama",
+    "type": "series",
+    "rating": "3.0",
+    "badges": [
+      "Top 10"
+    ],
+    "isTrending": true,
+    "isNewRelease": false,
+    "episode": 39
+  },
+  {
+    "id": "43",
+    "title": "Anatomy of a Fall",
+    "image": "https://image.tmdb.org/t/p/w500/kQs6keheMwCxJxrzV83VUwFtHkB.jpg",
+    "genre": "Drama",
+    "type": "film",
+    "rating": "3.1",
+    "badges": [],
+    "isTrending": true,
+    "isNewRelease": false,
+    "durasi": 152
+  },
+  {
+    "id": "44",
+    "title": "The Whale",
+    "image": "https://image.tmdb.org/t/p/w500/jQ0gylJMxWSL490sy0RrPj1Lj7e.jpg",
+    "genre": "Drama",
+    "type": "film",
+    "rating": "4.1",
+    "badges": [
+      "Premium"
+    ],
+    "isTrending": false,
+    "isNewRelease": true,
+    "durasi": 150
+  },
+  {
+    "id": "45",
+    "title": "Wednesday",
+    "image": "https://image.tmdb.org/t/p/w500/9PFonBhy4cQy7Jz20NpMygczOkv.jpg",
+    "genre": "Drama",
+    "type": "series",
+    "rating": "3.7",
+    "badges": [],
+    "isTrending": false,
+    "isNewRelease": true,
+    "episode": 16
+  },
+  {
+    "id": "46",
+    "title": "Parasite",
+    "image": "https://image.tmdb.org/t/p/w500/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
+    "genre": "Drama",
+    "type": "film",
+    "rating": "3.1",
+    "badges": [],
+    "isTrending": false,
+    "isNewRelease": false,
+    "durasi": 132
+  },
+  {
+    "id": "47",
+    "title": "The Godfather",
+    "image": "https://picsum.photos/seed/TheGodfather/800/1200",
+    "genre": "Drama",
+    "type": "film",
+    "rating": "4.7",
+    "badges": [
+      "Premium"
+    ],
+    "isTrending": false,
+    "isNewRelease": false,
+    "durasi": 175
+  },
+  {
+    "id": "48",
+    "title": "Forrest Gump",
+    "image": "https://image.tmdb.org/t/p/w500/arw2vcBveWOVZr6pxd9XTd1TdQa.jpg",
+    "genre": "Drama",
+    "type": "film",
+    "rating": "4.0",
+    "badges": [],
+    "isTrending": false,
+    "isNewRelease": false,
+    "durasi": 142
+  },
+  {
+    "id": "49",
+    "title": "The Shawshank Redemption",
+    "image": "https://image.tmdb.org/t/p/w500/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg",
+    "genre": "Drama",
+    "type": "film",
+    "rating": "4.3",
+    "badges": [],
+    "isTrending": false,
+    "isNewRelease": false,
+    "durasi": 142
+  },
+  {
+    "id": "50",
+    "title": "Everything Everywhere All at Once",
+    "image": "https://image.tmdb.org/t/p/w500/w3LxiVYdWWRvEVdn5RYq6jIqkb1.jpg",
+    "genre": "Drama",
+    "type": "film",
+    "rating": "3.1",
+    "badges": [
+      "Premium"
+    ],
+    "isTrending": false,
+    "isNewRelease": false,
+    "durasi": 126
+  },
+  {
+    "id": "51",
+    "title": "The Haunting of Hill House",
+    "image": "https://picsum.photos/seed/TheHauntingofHillHouse/800/1200",
+    "genre": "Horror",
+    "type": "series",
+    "rating": "3.1",
+    "badges": [
+      "Premium"
+    ],
+    "isTrending": true,
+    "isNewRelease": false,
+    "episode": 10
+  },
+  {
+    "id": "52",
+    "title": "Stranger Things",
+    "image": "https://image.tmdb.org/t/p/w500/49WJfeN0moxb9IPfGn8AIqMGskD.jpg",
+    "genre": "Horror",
+    "type": "series",
+    "rating": "3.2",
+    "badges": [
+      "Top 10"
+    ],
+    "isTrending": true,
+    "isNewRelease": false,
+    "episode": 34
+  },
+  {
+    "id": "53",
+    "title": "American Horror Story",
+    "image": "https://picsum.photos/seed/AmericanHorrorStory/800/1200",
+    "genre": "Horror",
+    "type": "series",
+    "rating": "4.7",
+    "badges": [],
+    "isTrending": true,
+    "isNewRelease": false,
+    "episode": 132
+  },
+  {
+    "id": "54",
+    "title": "The Fall of the House of Usher",
+    "image": "https://picsum.photos/seed/TheFalloftheHouseofUsher/800/1200",
+    "genre": "Horror",
+    "type": "series",
+    "rating": "4.4",
+    "badges": [
+      "Premium"
+    ],
+    "isTrending": false,
+    "isNewRelease": true,
+    "episode": 8
+  },
+  {
+    "id": "55",
+    "title": "Squid Game",
+    "image": "https://image.tmdb.org/t/p/w500/dDlEmu3EZ0Pgg93K2SVNLCjCSvE.jpg",
+    "genre": "Horror",
+    "type": "series",
+    "rating": "4.4",
+    "badges": [],
+    "isTrending": false,
+    "isNewRelease": true,
+    "episode": 19
+  },
+  {
+    "id": "56",
+    "title": "A Quiet Place Part II",
+    "image": "https://image.tmdb.org/t/p/w500/4q2hz2m8hubgvijz8Ez0T2Os2Yv.jpg",
+    "genre": "Horror",
+    "type": "film",
+    "rating": "3.4",
+    "badges": [],
+    "isTrending": false,
+    "isNewRelease": false,
+    "durasi": 97
+  },
+  {
+    "id": "57",
+    "title": "Hereditary",
+    "image": "https://picsum.photos/seed/Hereditary/800/1200",
+    "genre": "Horror",
+    "type": "film",
+    "rating": "4.0",
+    "badges": [
+      "Premium"
+    ],
+    "isTrending": false,
+    "isNewRelease": false,
+    "durasi": 127
+  },
+  {
+    "id": "58",
+    "title": "Get Out",
+    "image": "https://image.tmdb.org/t/p/w500/tFXcEccSQMf3lfhfXKSU9iRBpa3.jpg",
+    "genre": "Horror",
+    "type": "film",
+    "rating": "4.8",
+    "badges": [],
+    "isTrending": false,
+    "isNewRelease": false,
+    "durasi": 104
+  },
+  {
+    "id": "59",
+    "title": "The Conjuring",
+    "image": "https://image.tmdb.org/t/p/w500/wVYREutTvI2tmxr6ujrHT704wGF.jpg",
+    "genre": "Horror",
+    "type": "film",
+    "rating": "4.0",
+    "badges": [],
+    "isTrending": false,
+    "isNewRelease": false,
+    "durasi": 112
+  },
+  {
+    "id": "60",
+    "title": "M3GAN",
+    "image": "https://image.tmdb.org/t/p/w500/d9nBoowhjiiYc4FBNtQkPY7c11H.jpg",
+    "genre": "Horror",
+    "type": "film",
+    "rating": "4.7",
+    "badges": [
+      "Premium"
+    ],
+    "isTrending": false,
+    "isNewRelease": false,
+    "durasi": 102
+  },
+  {
+    "id": "61",
+    "title": "Dark",
+    "image": "https://image.tmdb.org/t/p/w500/apbrbWs8M9lyOpJYU5WXrpFbk1Z.jpg",
+    "genre": "Sci-Fi",
+    "type": "series",
+    "rating": "4.6",
+    "badges": [
+      "Premium"
+    ],
+    "isTrending": true,
+    "isNewRelease": false,
+    "episode": 26
+  },
+  {
+    "id": "62",
+    "title": "Interstellar",
+    "image": "https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
+    "genre": "Sci-Fi",
+    "type": "film",
+    "rating": "3.0",
+    "badges": [
+      "Top 10"
+    ],
+    "isTrending": true,
+    "isNewRelease": false,
+    "durasi": 169
+  },
+  {
+    "id": "63",
+    "title": "Inception",
+    "image": "https://image.tmdb.org/t/p/w500/oYuLEt3zVCKq57qu2F8dT7NIa6f.jpg",
+    "genre": "Sci-Fi",
+    "type": "film",
+    "rating": "3.5",
+    "badges": [],
+    "isTrending": true,
+    "isNewRelease": false,
+    "durasi": 148
+  },
+  {
+    "id": "64",
+    "title": "Blade Runner 2049",
+    "image": "https://image.tmdb.org/t/p/w500/gajva2L0rPYkEWjzgFlBXCAVBE5.jpg",
+    "genre": "Sci-Fi",
+    "type": "film",
+    "rating": "4.3",
+    "badges": [
+      "Premium"
+    ],
+    "isTrending": false,
+    "isNewRelease": true,
+    "durasi": 164
+  },
+  {
+    "id": "65",
+    "title": "Arrival",
+    "image": "https://image.tmdb.org/t/p/w500/x2FJsf1ElAgr63Y3PNPtJrcmpoe.jpg",
+    "genre": "Sci-Fi",
+    "type": "film",
+    "rating": "3.4",
+    "badges": [],
+    "isTrending": false,
+    "isNewRelease": true,
+    "durasi": 116
+  },
+  {
+    "id": "66",
+    "title": "The Martian",
+    "image": "https://image.tmdb.org/t/p/w500/5BHuvQ6p9kfc091Z8RiFNhCwL4b.jpg",
+    "genre": "Sci-Fi",
+    "type": "film",
+    "rating": "4.4",
+    "badges": [],
+    "isTrending": false,
+    "isNewRelease": false,
+    "durasi": 144
+  },
+  {
+    "id": "67",
+    "title": "Tenet",
+    "image": "https://picsum.photos/seed/Tenet/800/1200",
+    "genre": "Sci-Fi",
+    "type": "film",
+    "rating": "4.0",
+    "badges": [
+      "Premium"
+    ],
+    "isTrending": false,
+    "isNewRelease": false,
+    "durasi": 150
+  },
+  {
+    "id": "68",
+    "title": "Spider-Man: Across the Spider-Verse",
+    "image": "https://image.tmdb.org/t/p/w500/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg",
+    "genre": "Adventure",
+    "type": "film",
+    "rating": "4.0",
+    "badges": [],
+    "isTrending": false,
+    "isNewRelease": false,
+    "durasi": 140
+  },
+  {
+    "id": "69",
+    "title": "Dune: Part One",
+    "image": "https://picsum.photos/seed/Dune%3APartOne/800/1200",
+    "genre": "Sci-Fi",
+    "type": "film",
+    "rating": "3.8",
+    "badges": [],
+    "isTrending": false,
+    "isNewRelease": false,
+    "durasi": 155
+  },
+  {
+    "id": "70",
+    "title": "The Matrix Resurrections",
+    "image": "https://image.tmdb.org/t/p/w500/8c4a8kE7PizaGQQnditMmI1xbRp.jpg",
+    "genre": "Sci-Fi",
+    "type": "film",
+    "rating": "5.0",
+    "badges": [
+      "Premium"
+    ],
+    "isTrending": false,
+    "isNewRelease": false,
+    "durasi": 148
+  },
+  {
+    "id": "71",
+    "title": "KKN di Desa Penari",
+    "image": "https://picsum.photos/seed/KKNdiDesaPenari/800/1200",
+    "genre": "Horror",
+    "type": "film",
+    "rating": "4.3",
+    "badges": [],
+    "isTrending": true,
+    "isNewRelease": false,
+    "durasi": 120
+  },
+  {
+    "id": "72",
+    "title": "Sewu Dino",
+    "image": "https://picsum.photos/seed/SewuDino/800/1200",
+    "genre": "Horror",
+    "type": "film",
+    "rating": "3.9",
+    "badges": [
+      "Top 10"
+    ],
+    "isTrending": true,
+    "isNewRelease": false,
+    "durasi": 110
+  },
+  {
+    "id": "73",
+    "title": "Pengabdi Setan 2: Communion",
+    "image": "https://picsum.photos/seed/PengabdiSetan2%3ACommunion/800/1200",
+    "genre": "Horror",
+    "type": "film",
+    "rating": "4.5",
+    "badges": [
+      "Premium"
+    ],
+    "isTrending": false,
+    "isNewRelease": false,
+    "durasi": 117
+  },
+  {
+    "id": "74",
+    "title": "Gundala",
+    "image": "https://picsum.photos/seed/Gundala/800/1200",
+    "genre": "Action",
+    "type": "film",
+    "rating": "3.7",
+    "badges": [],
+    "isTrending": false,
+    "isNewRelease": false,
+    "durasi": 123
+  },
+  {
+    "id": "75",
+    "title": "The Raid: Redemption",
+    "image": "https://picsum.photos/seed/TheRaid%3ARedemption/800/1200",
+    "genre": "Action",
+    "type": "film",
+    "rating": "4.8",
+    "badges": [
+      "Premium"
+    ],
+    "isTrending": false,
+    "isNewRelease": false,
+    "durasi": 101
+  },
+  {
+    "id": "76",
+    "title": "Oppenheimer (2023)",
+    "image": "https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
+    "genre": "Drama",
+    "type": "film",
+    "rating": "4.6",
+    "badges": [
+      "Premium"
+    ],
+    "isTrending": true,
+    "isNewRelease": false,
+    "durasi": 180
+  },
+  {
+    "id": "77",
+    "title": "Poor Things",
+    "image": "https://picsum.photos/seed/PoorThings/800/1200",
+    "genre": "Drama",
+    "type": "film",
+    "rating": "4.1",
+    "badges": [
+      "Top 10"
+    ],
+    "isTrending": true,
+    "isNewRelease": false,
+    "durasi": 141
+  },
+  {
+    "id": "78",
+    "title": "Transformers: Rise of the Beasts",
+    "image": "https://image.tmdb.org/t/p/w500/gPbM0MK8CP8A174rmUwGsADNYKD.jpg",
+    "genre": "Action",
+    "type": "film",
+    "rating": "3.5",
+    "badges": [],
+    "isTrending": false,
+    "isNewRelease": false,
+    "durasi": 127
+  },
+  {
+    "id": "79",
+    "title": "Elemental",
+    "image": "https://image.tmdb.org/t/p/w500/6oH378KUfCEitzJkm07r97L0RsZ.jpg",
+    "genre": "Comedy",
+    "type": "film",
+    "rating": "3.8",
+    "badges": [],
+    "isTrending": false,
+    "isNewRelease": false,
+    "durasi": 101
+  },
+  {
+    "id": "80",
+    "title": "Five Nights at Freddy's",
+    "image": "https://picsum.photos/seed/FiveNightsatFreddy's/800/1200",
+    "genre": "Horror",
+    "type": "film",
+    "rating": "3.4",
+    "badges": [],
+    "isTrending": false,
+    "isNewRelease": false,
+    "durasi": 110
+  },
+  {
+    "id": "81",
+    "title": "Haunted (Indonesia)",
+    "image": "https://picsum.photos/seed/Haunted(Indonesia)/800/1200",
+    "genre": "Horror",
+    "type": "series",
+    "rating": "3.6",
+    "badges": [],
+    "isTrending": false,
+    "isNewRelease": true,
+    "episode": 6
+  },
+  {
+    "id": "82",
+    "title": "The Bear",
+    "image": "https://image.tmdb.org/t/p/w500/sHFlbKS3WLqMnp9t2ghADIJFnuQ.jpg",
+    "genre": "Comedy",
+    "type": "series",
+    "rating": "4.7",
+    "badges": [
+      "Premium"
+    ],
+    "isTrending": true,
+    "isNewRelease": false,
+    "episode": 28
+  },
+  {
+    "id": "83",
+    "title": "House of the Dragon",
+    "image": "https://image.tmdb.org/t/p/w500/z2yahl2uefxDCl0nogcRBstwruJ.jpg",
+    "genre": "Adventure",
+    "type": "series",
+    "rating": "4.4",
+    "badges": [
+      "Premium"
+    ],
+    "isTrending": true,
+    "isNewRelease": false,
+    "episode": 18
+  },
+  {
+    "id": "84",
+    "title": "The Boys",
+    "image": "https://image.tmdb.org/t/p/w500/stTEycfG9928HYGEISBFaG1ngjM.jpg",
+    "genre": "Action",
+    "type": "series",
+    "rating": "4.6",
+    "badges": [
+      "Top 10"
+    ],
+    "isTrending": true,
+    "isNewRelease": false,
+    "episode": 32
+  },
+  {
+    "id": "85",
+    "title": "Black Mirror",
+    "image": "https://image.tmdb.org/t/p/w500/7PRddO7z7mcPi21nZTCMGShAyy1.jpg",
+    "genre": "Sci-Fi",
+    "type": "series",
+    "rating": "4.3",
+    "badges": [],
+    "isTrending": false,
+    "isNewRelease": false,
+    "episode": 27
+  },
+  {
+    "id": "86",
+    "title": "Naga Bonar Reborn",
+    "image": "https://image.tmdb.org/t/p/w500/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg",
+    "genre": "Comedy",
+    "type": "film",
+    "rating": "3.8",
+    "badges": [],
+    "isTrending": false,
+    "isNewRelease": true,
+    "durasi": 100
+  },
+  {
+    "id": "87",
+    "title": "Jailangkung Sandekala",
+    "image": "https://picsum.photos/seed/JailangkungSandekala/800/1200",
+    "genre": "Horror",
+    "type": "film",
+    "rating": "3.4",
+    "badges": [],
+    "isTrending": false,
+    "isNewRelease": true,
+    "durasi": 107
+  },
+  {
+    "id": "88",
+    "title": "Makmum 2",
+    "image": "https://picsum.photos/seed/Makmum2/800/1200",
+    "genre": "Horror",
+    "type": "film",
+    "rating": "3.7",
+    "badges": [],
+    "isTrending": false,
+    "isNewRelease": false,
+    "durasi": 98
+  },
+  {
+    "id": "89",
+    "title": "Sri Asih",
+    "image": "https://picsum.photos/seed/SriAsih/800/1200",
+    "genre": "Action",
+    "type": "film",
+    "rating": "3.9",
+    "badges": [
+      "Premium"
+    ],
+    "isTrending": false,
+    "isNewRelease": false,
+    "durasi": 115
+  },
+  {
+    "id": "90",
+    "title": "Saltburn",
+    "image": "https://picsum.photos/seed/Saltburn/800/1200",
+    "genre": "Drama",
+    "type": "film",
+    "rating": "4.0",
+    "badges": [
+      "Top 10"
+    ],
+    "isTrending": true,
+    "isNewRelease": false,
+    "durasi": 131
+  }
+]

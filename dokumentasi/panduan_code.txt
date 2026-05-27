@@ -1,0 +1,59 @@
+PANDUAN KODE & TEKNOLOGI (DETAIL)
+
+1. TEKNOLOGI YANG DIGUNAKAN
+   - Framework: React 18 (diinisialisasi menggunakan Vite untuk performa build dan HMR yang sangat cepat).
+   - Bahasa: TypeScript, memastikan kejelasan tipe data (seperti tipe objek ApiMovie) sehingga mencegah bug saat runtime.
+   - Styling: Tailwind CSS v3. Memudahkan pembuatan antarmuka (UI) responsif menggunakan utility classes tanpa perlu menulis banyak file CSS terpisah. Digunakan secara luas untuk flexbox, grid, typography, dan spacing.
+   - Routing: React Router DOM v6. Menangani navigasi antar halaman (Client-Side Routing) seperti navigasi ke `/film`, `/series`, `/my-list`, dan `/search`.
+   - Ikon: Lucide React. Kumpulan ikon SVG modern (seperti ikon pencarian, profil, bintang rating, dll) yang disematkan langsung dalam komponen.
+   - API: Menggunakan MockAPI.io (sebagai REST API) untuk melakukan operasi CRUD. Menyimpan data dari `db.json` berisi 95 film & series.
+
+2. STRUKTUR FOLDER DAN FUNGSINYA
+   A. `src/pages/`
+      Menyimpan komponen utama yang merender satu halaman penuh (direpresentasikan oleh suatu Route).
+      - `Home.tsx`: Merender landing page. Meminta seluruh data film/series dan membaginya dalam kategori seperti "Trending", "Top Rating", dll.
+      - `Film.tsx`: Menampilkan hanya tipe "film". Memiliki state filter (genre) untuk menyaring daftar secara real-time.
+      - `Series.tsx`: Sama seperti Film, tapi menyaring berdasarkan tipe "series".
+      - `Search.tsx`: Mengambil parameter query URL (`?q=...`), memanggil API MockAPI, dan me-render hasil pencarian.
+      - `MyList.tsx`: Merender film/series yang telah ditandai pengguna ke dalam daftar simpanannya.
+
+   B. `src/components/ui/`
+      Menyimpan komponen antarmuka mandiri (reusable) yang digunakan oleh berbagai halaman.
+      - `Navbar.tsx`: Header statis/sticky yang berubah latar belakang saat discroll (menggunakan state `isScrolled`). Memiliki logika pencarian yang mengalihkan URL ke `/search`. Sudah dioptimasi agar form pencarian tampil *full-width* di layar mobile.
+      - `HeroSection.tsx`: Komponen untuk jumbotron teratas. Menerima `heroData` dinamis untuk merender gambar latar dan deskripsi, serta menyediakan antarmuka filter *Genre Dropdown* berdesain 2 kolom.
+      - `MovieRow.tsx`: Komponen krusial tempat baris film di-render. Menggunakan sistem grid/flex overflow, dan memiliki fitur *Expand Card* pada hover yang merender detail meta mini beserta judul dan tombol-tombol interaktif.
+      - `MovieDetailModal.tsx`: Popup *overlay* ketika user mengklik ikon selengkapnya. Di sini, efek samping (useEffect) digunakan untuk me-request lagi data API berdasarkan *genre* dari film terpilih guna memunculkan bagian "Rekomendasi Serupa".
+      - `VideoPlayer.tsx`: Komponen *overlay* full screen yang me-render simulasi *iframe* trailer/film saat pengguna menekan tombol Play.
+
+   C. `src/components/layouts/`
+      - `MainLayout.tsx`: Komponen bungkus (wrapper) yang secara otomatis menyisipkan `<Navbar />` di atas dan `<Footer />` di bawah untuk memastikan konsistensi desain halaman.
+
+   D. `src/services/`
+      - `api.ts`: *Central hub* untuk seluruh logika HTTP request (menggunakan native `fetch`). 
+        Fungsi utama: `fetchMovies()`, mengubah format array JSON dari MockAPI ke interface `ApiMovie`, menangani fallback data, dan melakukan *error catching*.
+
+3. FUNCTION & LOGIC MANAJEMEN STATE
+   A. Data Fetching (Pengambilan Data)
+      - Semua pemanggilan data dilakukan di awal (saat komponen mount) menggunakan hook `useEffect`. Data disimpan pada `useState` (misal: `const [movies, setMovies] = useState([])`).
+      - Untuk mencegah tampilan kosong, digunakan state `loading` yang bernilai `true` selama fetch berlangsung, lalu memunculkan animasi loading (skeleton).
+
+   B. Algoritma Filter (Genre)
+      - Filter genre terletak di `HeroSection` dan mengubah state `selectedGenre` yang hidup di komponen induk (`Film.tsx` atau `Series.tsx`).
+      - Array `movies` akan diproses: `const filteredMovies = selectedGenre ? movies.filter(m => m.genre === selectedGenre) : movies;`
+      - Array `filteredMovies` ini lalu dioper/didistribusikan ke masing-masing komponen `<MovieRow />`.
+
+   C. Fungsi Pencarian (Navbar.tsx)
+      - Pengguna mengetik di input, state lokal `searchQuery` diperbarui via `onChange`.
+      - Saat submit form (`handleSearch`), fungsi akan mengecek apakah query ada (trim). Jika ada, fungsi akan memanggil `useNavigate` untuk melempar parameter via URL param: `navigate("/search?q=value")`. Ini memastikan fitur search bisa di-share link-nya.
+
+   D. Rekomendasi Serupa (MovieDetailModal.tsx)
+      - Menerima prop `allMovies`.
+      - Saat modal dibuka untuk sebuah film A (yang memiliki genre "Action"), fungsi filter array murni digunakan:
+        `const recommended = allMovies.filter(m => m.genre === movie.genre && m.id !== movie.id)`
+      - Diatur agar menghasilkan 6-9 film yang ditampilkan dalam format grid statis tanpa navigasi carousel untuk membedakannya dengan MovieRow biasa.
+
+4. KONVENSI & BEST PRACTICES YANG DITERAPKAN
+   - Clean Code: Pemisahan tegas antara logika UI (komponen) dan logika pengambilan data (`api.ts`).
+   - Prop-Drilling Minimal: Komponen dipecah agar passing data (*props*) tidak terlalu bertingkat.
+   - Responsivitas: Menggunakan prefix class Tailwind seperti `sm:`, `md:`, dan `lg:` untuk transisi layar mobile ke desktop (khususnya untuk search bar dan ukuran kartu film).
+   - Penulisan Interface TypeScript: Mencegah typo penamaan *property* object JSON yang sering terjadi pada JavaScript murni.
