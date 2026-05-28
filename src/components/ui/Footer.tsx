@@ -14,7 +14,7 @@ export function Footer() {
               CHILL
             </span>
           </Link>
-          <p className="text-sm mt-2">©2023 Chill All Rights Reserved.</p>
+          <p className="text-sm mt-2">©2026 Chill All Rights Reserved.</p>
         </div>
 
         <div className="flex flex-col sm:flex-row gap-8 sm:gap-16 md:gap-32 w-full sm:w-auto">
